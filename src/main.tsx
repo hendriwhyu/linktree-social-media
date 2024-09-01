@@ -1,25 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
 import { Linkees } from "./components/Linkees";
-
 import { CHANNEL_TYPES } from "./constants";
-
 import "./css/components.css";
+import avatar from "./assets/hendri.jpg"
+import capstone from "./assets/capstone.png"
+import portfolio from "./assets/personal-website.png"
 
 const items = [
   {
     title: "Personal Website",
     subtitle: "Look at my work!",
     type: CHANNEL_TYPES.WEBSITE,
-    image: "/assets/personal-website.png",
+    image: portfolio,
     link: "https://vercel.com/404", //your personal website or portfolio  link
   },
   {
     title: "Comment - Community Environment",
     subtitle: "Look at my project!",
     type: CHANNEL_TYPES.WEBSITE,
-    image: "/assets/capstone.png",
+    image: capstone,
     link: "https://capstone-comment.vercel.app", //your personal website or portfolio  link
   },
   {
@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} headerAvatar="/assets/hendri.jpg" />
+      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} headerAvatar={avatar} />
     </React.StrictMode>
   );
 }
