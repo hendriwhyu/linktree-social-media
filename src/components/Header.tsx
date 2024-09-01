@@ -6,7 +6,13 @@ import '../css/skeleton.css';
 import '../css/components.css';
 import { ThemeType } from '../ts/types';
 
-function Header({ avatar, name }: { avatar?: string; name: string }): JSX.Element {
+interface HeaderProps {
+  avatar?: string;
+  name: string;
+  occupation: string;
+}
+
+function Header({ avatar, name, occupation }: HeaderProps): JSX.Element {
   const [theme, setTheme] = React.useState<ThemeType>("light");
 
   React.useEffect(() => {
@@ -31,6 +37,7 @@ function Header({ avatar, name }: { avatar?: string; name: string }): JSX.Elemen
         &nbsp;&nbsp;&nbsp;
         <h2>
           <b>{name}</b>
+          <p>{occupation}</p>
         </h2>
       </div>
       <button className="switch-theme-button" onClick={handleSwitchTheme}>

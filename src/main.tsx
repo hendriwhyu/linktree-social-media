@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} headerAvatar={avatar} />
+      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} occupation={"Full Stack Developer"} headerAvatar={avatar} />
     </React.StrictMode>
   );
 }

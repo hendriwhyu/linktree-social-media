@@ -7,18 +7,22 @@ import { ItemType } from '../ts';
 import { CHANNEL_TYPE_VS_COVER_IMAGE } from './constant';
 import { CHANNEL_TYPES } from '../constants';
 
+interface LinkeesProps {
+  headerAvatar?: string;
+  cardItems: ItemType[];
+  name: string;
+  occupation: string;
+}
+
 function Linkees({
   headerAvatar,
   cardItems,
   name,
-}: {
-  headerAvatar?: string;
-  cardItems: ItemType[];
-  name: string;
-}): JSX.Element {
+  occupation,
+}: LinkeesProps): JSX.Element {
   return (
     <div className="App">
-      <Header avatar={headerAvatar} name={name} />
+      <Header avatar={headerAvatar} occupation={occupation} name={name} />
       <div className="container row">
         {cardItems.map((item, i: number) => {
           const coverImage: string =
