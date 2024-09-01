@@ -9,11 +9,11 @@ import portfolio from "./assets/personal-website.png"
 
 const items = [
   {
-    title: "Personal Website",
-    subtitle: "Look at my work!",
+    title: "Personal Data",
+    subtitle: "Look at my curriculum vitae!",
     type: CHANNEL_TYPES.WEBSITE,
     image: portfolio,
-    link: "https://vercel.com/404", //your personal website or portfolio  link
+    link: "https://drive.google.com/file/d/17EMkuT99LGgA3BConGOFG9LO48ag0P91/view?usp=sharing", //your personal website or portfolio  link
   },
   {
     title: "Comment - Community Environment",
