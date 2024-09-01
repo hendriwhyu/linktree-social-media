@@ -31,6 +31,7 @@ function Linkees({
             CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
           return (
             <Card
+              key={i+item.title+item.subtitle}
               i={i}
               title={item.title}
               subtitle={item.subtitle}
