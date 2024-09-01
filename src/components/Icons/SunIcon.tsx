@@ -1,4 +1,3 @@
-import React from 'react';
 import { IIcon } from '../../ts';
 
 export default function SunIcon(props: IIcon): JSX.Element {

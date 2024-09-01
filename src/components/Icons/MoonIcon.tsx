@@ -1,4 +1,3 @@
-import React from 'react';
 import { IIcon } from '../../ts';
 
 export default function MoonIcon(props: IIcon): JSX.Element {
