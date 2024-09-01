@@ -12,14 +12,14 @@ const items = [
     title: "Personal Website",
     subtitle: "Look at my work!",
     type: CHANNEL_TYPES.WEBSITE,
-    image: "src/assets/personal-website.png",
+    image: "/assets/personal-website.png",
     link: "https://vercel.com/404", //your personal website or portfolio  link
   },
   {
     title: "Comment - Community Environment",
     subtitle: "Look at my project!",
     type: CHANNEL_TYPES.WEBSITE,
-    image: "src/assets/capstone.png",
+    image: "/assets/capstone.png",
     link: "https://capstone-comment.vercel.app", //your personal website or portfolio  link
   },
   {
@@ -46,7 +46,7 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDOM.createRoot(rootElement)?.render(
     <React.StrictMode>
-      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} headerAvatar="src/assets/hendri.jpg" />
+      <Linkees cardItems={items} name={"Hendri Wahyu Perdana"} headerAvatar="/assets/hendri.jpg" />
     </React.StrictMode>
   );
 }
