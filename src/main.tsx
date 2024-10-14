@@ -5,6 +5,7 @@ import { CHANNEL_TYPES } from "./constants";
 import "./css/components.css";
 import avatar from "./assets/hendri.jpg"
 import capstone from "./assets/capstone.png"
+import anomali from "./assets/anomali.png"
 import portfolio from "./assets/personal-website.png"
 
 const items = [
@@ -21,6 +22,13 @@ const items = [
     type: CHANNEL_TYPES.WEBSITE,
     image: capstone,
     link: "https://capstone-comment.vercel.app", //your personal website or portfolio  link
+  },
+  {
+    title: "Anomali - Website Company",
+    subtitle: "Look at my project!",
+    type: CHANNEL_TYPES.WEBSITE,
+    image: anomali,
+    link: "https://landing-page-anomali.vercel.app", //your personal website or portfolio  link
   },
   {
     title: "GitHub",
