@@ -10,11 +10,11 @@ import portfolio from "./assets/personal-website.png"
 
 const items = [
   {
-    title: "Personal Data",
-    subtitle: "Look at my curriculum vitae!",
+    title: "Creative Portfolio",
+    subtitle: "Look at my portfolio!",
     type: CHANNEL_TYPES.WEBSITE,
     image: portfolio,
-    link: "https://drive.google.com/file/d/17EMkuT99LGgA3BConGOFG9LO48ag0P91/view?usp=sharing", //your personal website or portfolio  link
+    link: "https://drive.google.com/file/d/1mLBo_zVtOT7-shfc08hBgBc8R03DjjtW/view?usp=sharing", //your personal website or portfolio  link
   },
   {
     title: "Comment - Community Environment",
