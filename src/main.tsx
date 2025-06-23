@@ -14,7 +14,7 @@ const items = [
     subtitle: "Look at my portfolio!",
     type: CHANNEL_TYPES.WEBSITE,
     image: portfolio,
-    link: "https://drive.google.com/file/d/1mLBo_zVtOT7-shfc08hBgBc8R03DjjtW/view?usp=sharing", //your personal website or portfolio  link
+    link: "https://self.so/hendri-wahyu-perdana", //your personal website or portfolio  link
   },
   {
     title: "Comment - Community Environment",
